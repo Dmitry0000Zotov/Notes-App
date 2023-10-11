@@ -1,0 +1,38 @@
+<h5 class="display-6 fs-3 text-center">{{ isNew ? 'Создание заметки' : 'Редактирование заметки' }}</h5> 
+<form [formGroup]="noteForm" (ngSubmit)="onSubmit()" class="note-form container">
+    <div class="dialog-content mb-3">
+        <mat-form-field class="note-full-width">
+            <mat-label>Заголовок</mat-label>
+            <input matInput placeholder="Введите название заметки" formControlName="title">
+        </mat-form-field>
+  
+        <mat-form-field class="note-full-width">
+            <mat-label>Детали заметки</mat-label>
+            <textarea matInput placeholder="Введите содержимое заметки" formControlName="details"></textarea>
+        </mat-form-field>
+
+        <label for="tag-box" class="form-label fs-5">Тэги</label>
+        <dx-tag-box
+            id="tag-box"
+            [(value)]="selectedTags"
+            [items]="availableTags"
+            [showClearButton]="true"
+            [placeholder]="tagBoxPlaceholder"
+            [displayExpr]="'title'"
+            class="custom-tag-box"
+        >
+        </dx-tag-box>
+        <label for="date-box" class="form-label fs-5">Дата</label>
+        <dx-date-box
+            id="date-box"
+            [type]="'datetime'"
+            [displayFormat]="'dd.MM.yyyy HH:mm:ss'"
+            formControlName="dateNote"
+        >
+        </dx-date-box>
+    </div>
+    <div class="dialog-buttons row p-2 mb-1">
+        <button class="btn btn-outline-secondary col me-2" (click)="onNoClick()" type="button">Отмена</button>
+        <button class="btn btn-outline-success col ms-2" type="submit">{{ isNew ? 'Создать' : 'Применить' }}</button>
+    </div>
+</form>

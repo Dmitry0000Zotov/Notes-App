@@ -1,0 +1,18 @@
+.new-note-button{
+    transition: background-color 1s;
+}
+.new-note-text{
+    transition: font-size 0.7s;
+}
+
+.new-note-button:hover{
+    background-color: #a7abc7;
+}
+
+.delete-icon{
+    transition: color 1s;
+}
+
+.delete-icon:hover{
+    color: #e2586a;
+}

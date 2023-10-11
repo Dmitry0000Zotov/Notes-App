@@ -1,0 +1,25 @@
+<div class="container row">
+  <div class="container col-4">
+    <h5 class="display-6 fs-4">Ваши заметки</h5>
+    <mat-divider></mat-divider>
+      <div class="container mt-4">
+          <div class="list-group">
+              <a role="button" class="list-group-item list-group-item-action" *ngFor="let note of notes" (click)="showNoteDetails(note)">
+                  <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">{{ note.title }}</h5>
+                      <a role="button" (click)="openDeleteDialog(note.noteId, 'note')"><mat-icon class="delete-icon">delete</mat-icon></a>
+                  </div>
+                  <small>Дата создания: {{ note.dateCreation  | date: 'dd-MM-yyyy HH:mm':'local' }} </small>
+              </a>
+              <a role="button" class="new-note-button list-group-item list-group-item-action" (click)="openDialog()">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1 new-note-text">+ Новая заметка</h5>
+                </div>
+              </a>
+          </div>
+      </div>
+  </div>
+  <div class="container col">
+    <app-note-details [note]="selectedNote"></app-note-details>
+  </div>
+</div>

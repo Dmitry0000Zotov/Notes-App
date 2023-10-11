@@ -1,0 +1,40 @@
+<div class="container">
+    <h5 class="display-6 fs-4">Детали заметки</h5>
+    <mat-divider></mat-divider>
+    <div class="container mt-4 details-container">
+        <div *ngIf="note && note.noteId !== ''; else emptyBlock"> 
+            <div class="row mb-3">
+                <div class="col">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h3 class="fs-3 fw-medium">{{note.title}}</h3>
+                        <button class="btn btn-outline-dark" (click)="openEditDialog(note)">Редактировать</button>
+                    </div>
+                    <div class="container mt-4">
+                        <p>{{ note.details }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-end">
+                    <div class="d-flex w-100 justify-content-start">
+                        <h3 class="fs-3 fw-light">Дата: {{ note.dateNote && (note.dateNote > note.dateCreation) ? (note.dateNote | date: 'dd-MM-yyyy HH:mm':'local') : 'нет привязанной даты' }}</h3>
+                    </div>
+                    <h3 class="fs-3 fw-light">Тэги:</h3>
+                    <div class="container">
+                        <mat-chip-listbox>
+                            <div *ngFor="let tag of note.tags">
+                                <mat-chip>
+                                    {{ tag.title }}
+                                </mat-chip>
+                            </div>
+                        </mat-chip-listbox>
+                    </div>
+                    <div class="container text-end">
+                        <small>Последнее редактирование: {{ (note.dateEdit && (note.dateEdit > note.dateCreation)? note.dateEdit : note.dateCreation) | date: 'dd-MM-yyyy HH:mm':'local'}} </small>
+                    </div>   
+            </div>
+        </div>
+        <ng-template #emptyBlock>
+            <h5 class="display-6 text-center">Выберите заметку</h5>
+        </ng-template>
+    </div>
+</div>

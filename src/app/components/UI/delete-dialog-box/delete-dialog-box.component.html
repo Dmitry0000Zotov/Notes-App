@@ -1,0 +1,7 @@
+<div class="container mt-2">
+    <h3 class="display-6 fs-3">Вы действительно хотите удалить {{ type === 'note' ? 'заметку' : type === 'tag' ? 'тэг' : 'напоминание' }}?</h3>
+    <div class="dialog-buttons row p-2 mb-2">
+        <button class="btn btn-secondary col me-2" (click)="onNoClick()">Отмена</button>
+        <button class="btn btn-outline-danger col ms-2" (click)="onDeleteClick()">Удалить</button>
+    </div>
+</div>

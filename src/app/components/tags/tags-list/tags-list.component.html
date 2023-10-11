@@ -1,0 +1,37 @@
+<div class="container w-100">
+    <div class="container row">
+        <div class="container col-8">
+            <h5 class="display-6 fs-4">Список ваших тэгов</h5>
+            <mat-divider></mat-divider>
+            <div *ngIf="tags && tags.length > 0; else emptyBlock">
+                <div class="container mt-4">
+                    <mat-chip-listbox class="mt-3">
+                        <div *ngFor="let tag of tags">
+                            <mat-chip class="tag-item">
+                                {{ tag.title }} <button type="button" class="btn-close" aria-label="Close" (click)="openDeleteDialog(tag.tagId, 'tag')"></button>
+                            </mat-chip>
+                        </div>
+                    </mat-chip-listbox>
+                </div>
+            </div>
+            <ng-template #emptyBlock>
+                <div class="container mt-3 mb-4 text-center">
+                    <div class="display-6">У вас нет тэгов</div>
+                </div>
+            </ng-template>
+        </div>
+        <div class="container col">
+            <h5 class="display-6 fs-4">Добавление нового тэга</h5>
+            <mat-divider></mat-divider>
+            <div class="container mt-4">
+                <form class="new-tag-form" [formGroup]="tagForm" (ngSubmit)="onSubmit()">
+                    <mat-form-field class="new-tag-full-width">
+                      <mat-label>Название тэга</mat-label>
+                      <input matInput placeholder="Введите название тэга" formControlName="title">
+                    </mat-form-field>
+                    <button class="btn btn-outline-dark col ms-2" type="submit">Создать</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

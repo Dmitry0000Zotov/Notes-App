@@ -1,0 +1,21 @@
+.mat-mdc-standard-chip:not(.mdc-evolution-chip--disabled){
+    background-color: #b4b9d8;
+}
+
+mat-chip{
+    padding: 4px 9px !important;
+}
+
+.btn-close{
+    font-size: 12px;
+}
+
+.new-tag-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+  
+.new-tag-full-width {
+    width: 100%;
+}
