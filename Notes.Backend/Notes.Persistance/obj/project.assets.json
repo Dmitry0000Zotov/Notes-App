@@ -1359,11 +1359,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repos\\Notes.Backend\\Notes.Persistance\\Notes.Persistence.csproj",
+      "projectUniqueName": "D:\\repos\\notes-app\\Notes-App\\Notes.Backend\\Notes.Persistance\\Notes.Persistence.csproj",
       "projectName": "Notes.Persistence",
-      "projectPath": "D:\\repos\\Notes.Backend\\Notes.Persistance\\Notes.Persistence.csproj",
+      "projectPath": "D:\\repos\\notes-app\\Notes-App\\Notes.Backend\\Notes.Persistance\\Notes.Persistence.csproj",
       "packagesPath": "C:\\Users\\zotov\\.nuget\\packages\\",
-      "outputPath": "D:\\repos\\Notes.Backend\\Notes.Persistance\\obj\\",
+      "outputPath": "D:\\repos\\notes-app\\Notes-App\\Notes.Backend\\Notes.Persistance\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1385,8 +1385,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\repos\\Notes.Backend\\Notes.Application\\Notes.Application.csproj": {
-              "projectPath": "D:\\repos\\Notes.Backend\\Notes.Application\\Notes.Application.csproj"
+            "D:\\repos\\notes-app\\Notes-App\\Notes.Backend\\Notes.Application\\Notes.Application.csproj": {
+              "projectPath": "D:\\repos\\notes-app\\Notes-App\\Notes.Backend\\Notes.Application\\Notes.Application.csproj"
             }
           }
         }

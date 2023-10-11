@@ -10,3 +10,15 @@ D:\repos\Notes.Backend\Notes.Domain\obj\Debug\net6.0\Notes.Domain.dll
 D:\repos\Notes.Backend\Notes.Domain\obj\Debug\net6.0\refint\Notes.Domain.dll
 D:\repos\Notes.Backend\Notes.Domain\obj\Debug\net6.0\Notes.Domain.pdb
 D:\repos\Notes.Backend\Notes.Domain\obj\Debug\net6.0\ref\Notes.Domain.dll
+D:\repos\notes-app\Notes-App\Notes.Backend\Notes.Domain\bin\Debug\net6.0\Notes.Domain.deps.json
+D:\repos\notes-app\Notes-App\Notes.Backend\Notes.Domain\bin\Debug\net6.0\Notes.Domain.dll
+D:\repos\notes-app\Notes-App\Notes.Backend\Notes.Domain\bin\Debug\net6.0\Notes.Domain.pdb
+D:\repos\notes-app\Notes-App\Notes.Backend\Notes.Domain\obj\Debug\net6.0\Notes.Domain.csproj.AssemblyReference.cache
+D:\repos\notes-app\Notes-App\Notes.Backend\Notes.Domain\obj\Debug\net6.0\Notes.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\notes-app\Notes-App\Notes.Backend\Notes.Domain\obj\Debug\net6.0\Notes.Domain.AssemblyInfoInputs.cache
+D:\repos\notes-app\Notes-App\Notes.Backend\Notes.Domain\obj\Debug\net6.0\Notes.Domain.AssemblyInfo.cs
+D:\repos\notes-app\Notes-App\Notes.Backend\Notes.Domain\obj\Debug\net6.0\Notes.Domain.csproj.CoreCompileInputs.cache
+D:\repos\notes-app\Notes-App\Notes.Backend\Notes.Domain\obj\Debug\net6.0\Notes.Domain.dll
+D:\repos\notes-app\Notes-App\Notes.Backend\Notes.Domain\obj\Debug\net6.0\refint\Notes.Domain.dll
+D:\repos\notes-app\Notes-App\Notes.Backend\Notes.Domain\obj\Debug\net6.0\Notes.Domain.pdb
+D:\repos\notes-app\Notes-App\Notes.Backend\Notes.Domain\obj\Debug\net6.0\ref\Notes.Domain.dll

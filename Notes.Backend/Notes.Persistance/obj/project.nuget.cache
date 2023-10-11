@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yaH981ZGz2tmKBO7nEJyT6/9+Y/iprZxYlvxgql3LyZL70K55QVkpydAEwogoyrVcf7bMOpHT16VdKeUiydZEw==",
+  "dgSpecHash": "3XJoFO7lYth9xEe84eg9ED1UwdBd0J2uj6LkaYSEIftQCaTnhkqhSQq58ixi0ZRoaPYOJNKMC6C/OoB35rCBaA==",
   "success": true,
-  "projectFilePath": "D:\\repos\\Notes.Backend\\Notes.Persistance\\Notes.Persistence.csproj",
+  "projectFilePath": "D:\\repos\\notes-app\\Notes-App\\Notes.Backend\\Notes.Persistance\\Notes.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zotov\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\zotov\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T2bX24XwC7xs6N5wm2UD3tPVDTxcncGtRBOSDnjq3vcGqDbSIUdDGcJZ4YS+Zw72MdN0JsKlVThWU2ezk9fdEw==",
+  "dgSpecHash": "LJPcOyJRtG1ENYKwuMxo+JYqdbDNvz9EUyF/5kAV6VOJ1bibbsy45qAYQqxdZ9ODRSbneynzpA9SRFNevxyW+w==",
   "success": true,
-  "projectFilePath": "D:\\repos\\Notes.Backend\\Notes.Api\\Notes.Api.csproj",
+  "projectFilePath": "D:\\repos\\notes-app\\Notes-App\\Notes.Backend\\Notes.Api\\Notes.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zotov\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\zotov\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

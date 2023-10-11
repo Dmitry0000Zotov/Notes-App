@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Notes.Domain
-build_property.ProjectDir = D:\repos\Notes.Backend\Notes.Domain\
+build_property.ProjectDir = D:\repos\notes-app\Notes-App\Notes.Backend\Notes.Domain\
